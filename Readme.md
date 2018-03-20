@@ -3,9 +3,9 @@
 ChatBot is a computer program that simulate human conversation, through artificial intelligence.
 
 Some Famous Chatbots
-a. 1966 ELIZA
-b. 2015 ALEXA
-c. 2016 TAY
+1. 1966 ELIZA
+2. 2015 ALEXA
+3. 2016 TAY
 
 Why?
 1. More Secure for privacy
@@ -38,6 +38,9 @@ Archirecture-
 2. Suppose order a pizza has 2 slots i.e. what kind of pizza and size of pizza
 3. Change my pin requires current pin.
 
+## Prompts
+1. Questions to be asked to get required slots.
+
 ## Context
 1. Makes Chatbots intelligent,
 2. identify context of chat.
@@ -59,3 +62,18 @@ https://exadatum-mit.signin.aws.amazon.com/console
 Username :- registered email
 Password :- exadatum-mit
 ```
+
+## Amazon LEX
+1. create a custom bot
+2. Session timeout - how much time it will wait for user response from prev context
+3. IAM role - set of policies ( for security, permissions )
+
+4. Create Intent
+5. give some utterances.
+6. give fulfillments
+7. In lambda initialization we can assign some validation checks, database connection etc.
+
+
+# Two Assignments
+1. Create a lambda function and use Oxford dictionary to get meaning. 
+2. integrate a bot with messenger
