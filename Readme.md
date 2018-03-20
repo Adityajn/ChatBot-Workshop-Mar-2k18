@@ -3,9 +3,9 @@
 ChatBot is a computer program that simulate human conversation, through artificial intelligence.
 
 Some Famous Chatbots
-1966 ELIZA
-2015 ALEXA
-2016 TAY
+a. 1966 ELIZA
+b. 2015 ALEXA
+c. 2016 TAY
 
 Why?
 1. More Secure for privacy
@@ -19,9 +19,9 @@ Archirecture-
 
 ```
 | Sensory Layer | <--> | ChatBotPlatforms | <--> | API Brokerage Layer |
-								|
-								|
-					   (NLP and ML modules)
+                                |
+                                |
+                       (NLP and ML modules)
 ```
 
 ### Sensory Layer (utterances) - voice based, text based
@@ -54,7 +54,8 @@ Archirecture-
 2. AWS Lambda as a compute service.
 3. AWS DynamoDB as a NoSQL database.
 
-
+```
 https://exadatum-mit.signin.aws.amazon.com/console
 Username :- registered email
 Password :- exadatum-mit
+```
